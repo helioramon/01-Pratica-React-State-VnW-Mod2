@@ -1,5 +1,6 @@
 
 import React, { Component } from "react";
+import imagem from './manga.jpg'
 
 class App extends Component {
   state = {
@@ -19,6 +20,7 @@ class App extends Component {
           <ol>{this.state.músicas[1]}</ol>
           <ol>{this.state.músicas[2]}</ol>
         </ul>
+        <img src={imagem} alt='manga'/>
       </div>
     )
   }
